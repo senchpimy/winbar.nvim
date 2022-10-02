@@ -1,4 +1,5 @@
 # Winbar.nvim
+# THIS IS A FIXED VERSION OF [WINBAR.NVIM](https://github.com/fgheng/winbar.nvim) WITH NAVIC INSTEAD OF GPS
 
 ![winbar2](sources/winbar2.png)
 
