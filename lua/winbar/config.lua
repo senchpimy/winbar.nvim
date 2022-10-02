@@ -1,7 +1,7 @@
 local M = {}
 
 M.defaults = {
-    enabled = false,
+    enabled = true,
 
     show_file_path = true,
     show_symbols = true,
@@ -20,19 +20,30 @@ M.defaults = {
     },
 
     exclude_filetype = {
-        'help',
-        'startify',
-        'dashboard',
-        'packer',
-        'neogitstatus',
-        'NvimTree',
-        'Trouble',
-        'alpha',
-        'lir',
-        'Outline',
-        'spectre_panel',
-        'toggleterm',
-        'qf',
+          "help",
+    	  "qf",
+	  "startify",
+	  "dashboard",
+	  "packer",
+	  "neogitstatus",
+	  "NvimTree",
+	  "Trouble",
+	  "alpha",
+	  "lir",
+	  "Outline",
+	  "spectre_panel",
+	  "toggleterm",
+	  "DressingSelect",
+	  "Jaq",
+	  "harpoon",
+	  "dapui_scopes",
+	  "dapui_breakpoints",
+	  "dapui_stacks",
+	  "dapui_watches",
+	  "dap-repl",
+	  "dap-terminal",
+	  "dapui_console",
+	  "lab",
     }
 }
 
